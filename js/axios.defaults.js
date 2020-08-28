@@ -1,5 +1,7 @@
 //对axios进行二次封装
 axios.defaults.baseURL = 'http://127.0.0.1:8888';
+//配置cookie
+axios.defaults.withCredentials = true;
 
 
 axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded';
